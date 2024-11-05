@@ -32,7 +32,7 @@
       "code": "PROD-0002",
       "name": "Blackmores CoQ10 150mg",
       "description": "",
-      "categoryId":"1",
+      "categoryId": "1",
       "price": "513000",
       "quantity": "100",
       "date": "2024-12-15"
@@ -56,6 +56,46 @@
       "date": "2024-08-27",
       "description": "â",
       "categoryId": "2"
+    },
+    {
+      "id": "1457",
+      "code": "PROD-1234",
+      "name": "thuốc tiêu chảy",
+      "categoryId": "3",
+      "price": "100000",
+      "quantity": "54353",
+      "date": "2024-11-06",
+      "description": "Trị bệnh tiêu chảy"
+    },
+    {
+      "id": "5548",
+      "code": "PROD-5678",
+      "name": "Nhức đầu",
+      "categoryId": "3",
+      "price": "674563",
+      "quantity": "54645",
+      "date": "2024-11-09",
+      "description": "Trị nhức đầu"
+    },
+    {
+      "id": "f43a",
+      "code": "PROD-4235",
+      "name": "Đau bụng",
+      "categoryId": "3",
+      "price": "14254",
+      "quantity": "64564567",
+      "date": "2024-11-20",
+      "description": "Trị đau bụng"
+    },
+    {
+      "id": "6fab",
+      "code": "PROD-5566",
+      "name": "Xe lăn",
+      "categoryId": "2",
+      "price": "34554365",
+      "quantity": "654534",
+      "date": "2024-11-19",
+      "description": "Xe chở người"
     }
   ]
 }

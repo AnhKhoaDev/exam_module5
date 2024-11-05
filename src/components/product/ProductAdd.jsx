@@ -64,7 +64,7 @@ function ProductAdd() {
                             required: "Mã sản phẩm không được để trống",
                             pattern: {
                                 value: /^PROD-\d{4}$/,
-                                message: "Mã sản phẩm phải có dạng SP-XXXX với X là các số",
+                                message: "Mã sản phẩm phải có dạng PROD-XXXX với X là các số",
                             },
                         })}
                         className={"mt-1 p-2 border border-gray-300 rounded-md w-full"}
@@ -155,16 +155,16 @@ function ProductAdd() {
                     </label>
                     <input
                         type="date"
-                        {...register("importDate", {
+                        {...register("date", {
                             required: "Ngày nhập không được để trống",
                             validate: (value) =>
                                 new Date(value) >= new Date() || "Ngày nhập không được nhỏ hơn ngày hiện tại",
                         })}
                         className={"mt-1 p-2 border border-gray-300 rounded-md w-full"}
                     />
-                    {errors.importDate && (
+                    {errors.date && (
                         <p className={"text-red-500 text-sm"}>
-                            {errors.importDate.message}
+                            {errors.date.message}
                         </p>
                     )}
                 </div>
